@@ -21,6 +21,7 @@ class StatsCountersWidget extends StatelessWidget {
         color: Colors.white,
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: Colors.grey[400]!.withOpacity(0.5),
             spreadRadius: 2,
             blurRadius: 20,

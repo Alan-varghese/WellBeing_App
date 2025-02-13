@@ -118,6 +118,7 @@ class _HomePageState extends State<HomePage> {
                                     Container(
                                       decoration: BoxDecoration(
                                         color: WellBeingColors.mediumGrey
+                                            // ignore: deprecated_member_use
                                             .withOpacity(0.3),
                                         borderRadius: BorderRadius.circular(10),
                                       ),
@@ -128,6 +129,7 @@ class _HomePageState extends State<HomePage> {
                                     Container(
                                       decoration: BoxDecoration(
                                         color: WellBeingColors.mediumGrey
+                                            // ignore: deprecated_member_use
                                             .withOpacity(0.3),
                                         borderRadius: BorderRadius.circular(10),
                                       ),
@@ -156,6 +158,7 @@ class _HomePageState extends State<HomePage> {
                               CupertinoIcons.chevron_right,
                               size: 18,
                               color:
+                                  // ignore: deprecated_member_use
                                   WellBeingColors.mediumGrey.withOpacity(0.7),
                             ),
                           ],
@@ -397,6 +400,7 @@ class _HomePageState extends State<HomePage> {
                       child: Text(
                         '${progress.round()}%',
                         style: TextStyle(
+                          // ignore: deprecated_member_use
                           color: Colors.white.withOpacity(0.7),
                           fontSize: 12,
                           fontWeight: FontWeight.bold,
